@@ -1,3 +1,7 @@
+### JWT vs OAuth 2.0
+
+> Authored by [Sijo Sam](http://github.com/mrSamDev)
+
 JSON Web Tokens, or JWTs, are a compact, URL‑safe way to pass claims between parties. They let servers avoid storing session state, which suits web apps and APIs. A JWT has three parts: header, payload, and signature, all base64url encoded and joined with dots. The payload isn’t encrypted, so don’t put secrets in it.
 
 The header says how the token was created. It usually includes `typ: JWT` and `alg` for the signing algorithm. HS256 uses a shared secret for HMAC with SHA‑256. RS256 or ES256 use asymmetric keys—the issuer signs with a private key, anyone can verify with the public key. This scales well across services, just keep your key management tight.
