@@ -1,3 +1,19 @@
+---
+title: JWT vs OAuth 2.0
+excerpt: Understand the differences between JWT and OAuth 2.0, their use cases, and best practices for secure, scalable authentication in modern web applications.
+publishDate: 'Oct 09 2025'
+tags:
+   - JWT
+   - OAuth
+   - Authentication
+   - API Security
+   - Web Development
+seo:
+     image:
+       src: [https://res.cloudinary.com/dnmuyrcd7/image/upload/f_auto](https://res.cloudinary.com/dnmuyrcd7/image/upload/f_auto),q_auto/v1/Blog/authentication/jwt-oauth-comparison.png
+       alt: JWT vs OAuth 2.0 Authentication Comparison
+---
+
 ### JWT vs OAuth 2.0
 
 > Authored by [Sijo Sam](http://github.com/mrSamDev)
