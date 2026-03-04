@@ -1,15 +1,18 @@
 ---
-title: Understanding JavaScript’s Runtime System
-excerpt: Understand how the JavaScript engine, call stack, event loop, and task queues work together to execute synchronous and asynchronous code in browsers and Node.js.
-publishDate: 'Oct 17 2025'
+title: Understanding Cross-Site Scripting - A Security Primer
+excerpt: Learn how XSS attacks work, why your session cookies are vulnerable, and the exact defense strategies that actually stop attackers—from HTTP-only flags to Content Security Policies.
+publishDate: 'Nov 04 2025'
+isPublished: false
 tags:
-  - JavaScript
-  - Programming
-  - Code Quality
+  - Web Security
+  - XSS
+  - Session Management
+  - Security Best Practices
+  - Frontend Security
 seo:
   image:
     src: https://res.cloudinary.com/dnmuyrcd7/image/upload/Gemini_Generated_Image_sfhxv4sfhxv4sfhx_shlu1w.png
-    alt: 'JavaScript runtime components and event loop visualization'
+    alt: 'Diagram showing XSS attack flow from attacker injection through browser execution to session theft'
 ---
 
 
