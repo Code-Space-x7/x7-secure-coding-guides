@@ -1,3 +1,19 @@
+---
+title: Understanding JavaScript’s Runtime System
+excerpt: Understand how the JavaScript engine, call stack, event loop, and task queues work together to execute synchronous and asynchronous code in browsers and Node.js.
+publishDate: 'Oct 17 2025'
+tags:
+  - JavaScript
+  - Programming
+  - Code Quality
+seo:
+  image:
+    src: https://res.cloudinary.com/dnmuyrcd7/image/upload/Gemini_Generated_Image_sfhxv4sfhxv4sfhx_shlu1w.png
+    alt: 'JavaScript runtime components and event loop visualization'
+---
+
+
+
 ### Understanding Cross-Site Scripting - A Security Primer
 
 >  **Authored by:** [Nirmala NB](https://www.linkedin.com/in/nirmala-nb/) | [Website](https://nirmala.mrsamdev.xyz/)
