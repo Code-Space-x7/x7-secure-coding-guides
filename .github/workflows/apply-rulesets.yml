@@ -8,8 +8,6 @@ on:
 jobs:
   apply:
     runs-on: ubuntu-latest
-    permissions:
-      administration: write
     steps:
       - uses: actions/checkout@v4
       - name: Apply ruleset
@@ -17,4 +15,4 @@ jobs:
           --method POST \
           --input .github/rulesets/main-branch-protection.json
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.REPO_ADMIN_TOKEN }}
