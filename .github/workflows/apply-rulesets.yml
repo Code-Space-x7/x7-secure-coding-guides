@@ -8,6 +8,8 @@ on:
 jobs:
   apply:
     runs-on: ubuntu-latest
+    permissions:
+      administration: write
     steps:
       - uses: actions/checkout@v4
       - name: Apply ruleset
